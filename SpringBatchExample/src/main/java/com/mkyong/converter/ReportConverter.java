@@ -34,7 +34,7 @@ public class ReportConverter implements Converter {
 		
 		Report obj = new Report();
 		
-		//get attribute
+		//get attribute new comment
 		obj.setId(Integer.valueOf(reader.getAttribute("id")));
 		reader.moveDown(); //get date
 		
